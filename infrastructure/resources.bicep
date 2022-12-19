@@ -61,10 +61,6 @@ var config = [
     value: 'dotnet-isolated'
   }
   {
-    name: 'WEBSITE_RUN_FROM_PACKAGE'
-    value: true
-  }
-  {
     name: 'Azure:AppConfiguration'
     value: azureAppConfiguration.properties.endpoint
   }

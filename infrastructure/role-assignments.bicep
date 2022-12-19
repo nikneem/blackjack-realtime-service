@@ -1,18 +1,18 @@
 param principalId string
 param integrationResourceGroupName string
 
-resource storageAccountDataContributorRole 'Microsoft.Authorization/roleDefinitions@2018-01-01-preview' existing = {
-  scope: resourceGroup()
-  name: '0a9a7e1f-b9d0-4cc4-a60d-0319b160aaa3'
-}
-module azureContainerApp 'br/BicepModules:authorization/roleassignments:0.1.10' = {
-  name: 'storageAccountDataReaderRoleAssignmentModule'
-  scope: resourceGroup()
-  params: {
-    principalId: principalId
-    roleDefinitionId: storageAccountDataContributorRole.id
-  }
-}
+// resource storageAccountDataContributorRole 'Microsoft.Authorization/roleDefinitions@2018-01-01-preview' existing = {
+//   scope: resourceGroup()
+//   name: '0a9a7e1f-b9d0-4cc4-a60d-0319b160aaa3'
+// }
+// module azureContainerApp 'br/BicepModules:authorization/roleassignments:0.1.10' = {
+//   name: 'storageAccountDataReaderRoleAssignmentModule'
+//   scope: resourceGroup()
+//   params: {
+//     principalId: principalId
+//     roleDefinitionId: storageAccountDataContributorRole.id
+//   }
+// }
 
 resource configurationDataReaderRole 'Microsoft.Authorization/roleDefinitions@2018-01-01-preview' existing = {
   scope: resourceGroup()
