@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "BlackJack.Realtime.Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7236",
+      "launchBrowser": false
+    }
+  }
+}

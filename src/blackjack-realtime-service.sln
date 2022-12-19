@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31410.414
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Realtime.Functions", "BlackJack.Realtime.Functions\BlackJack.Realtime.Functions.csproj", "{69A5AB6B-BBC0-464E-9F98-F15BCAF4FA36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69A5AB6B-BBC0-464E-9F98-F15BCAF4FA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A5AB6B-BBC0-464E-9F98-F15BCAF4FA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A5AB6B-BBC0-464E-9F98-F15BCAF4FA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A5AB6B-BBC0-464E-9F98-F15BCAF4FA36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACF2CA3D-976F-49EC-A011-2B1E25A21C54}
+	EndGlobalSection
+EndGlobal
